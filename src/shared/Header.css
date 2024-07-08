@@ -1,0 +1,135 @@
+/*--header--*/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar-brand {
+  max-width: 270px;
+}
+
+.navbar-nav li {
+  margin-left: 34px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.navbar-nav li > a {
+  padding: 0 0px 5px;
+  position: relative;
+}
+
+.navbar-nav li > a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  transition: width 0.3s ease-in;
+  -webkit-transition: width 0.3s ease-in;
+  -moz-transition: width 0.3s ease-in;
+  -ms-transition: width 0.3s ease-in;
+  -o-transition: width 0.3s ease-in;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-nav li.current_page_item > a:after,
+.navbar-nav li:hover > a:after {
+  width: 100%;
+}
+
+.navbar {
+  padding: 42px 0;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+
+.scroll_nav {
+  transition: all 0.4s ease-in;
+  padding: 12px 0;
+  background-color: rgba(19, 56, 153, 0.95);
+  box-shadow: 0 0 25px 0 rgba(140, 142, 191, 0.3);
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+li.menu-item-has-children {
+  position: relative;
+}
+.sub-menu {
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  transform: translateY(30px);
+  margin-top: 30px;
+  transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background: #c1c1c1;
+  text-align: left;
+  padding: 10px;
+}
+li.menu-item-has-children:hover > .sub-menu {
+  pointer-events: all;
+  opacity: 1;
+  transform: none;
+}
+.navbar-nav li .sub-menu li {
+  margin-left: 0;
+}
+
+.cntry_flag {
+  margin-left: 30px;
+  margin-top: -6px;
+}
+
+.cntry_flag .dropdown-menu {
+  min-width: auto;
+  padding: 0 0 3px;
+  right: 0;
+  left: auto;
+}
+
+.cntry_flag .bootstrap-select > .dropdown-toggle {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: #fff !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  /* font-family: "Gilroy", sans-serif; */
+  font-family: "Muli", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.flag-icon-us {
+  background-image: url(images/eng.svg);
+}
+
+.flag-icon {
+  margin-right: 6px;
+}
+
+.cntry_flag li a {
+  color: #000;
+  font-size: 14px;
+}
+
+.cntry_flag .dropdown-item.active,
+.cntry_flag .dropdown-item:active {
+  background-color: #1e48af;
+}

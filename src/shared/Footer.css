@@ -1,0 +1,95 @@
+.footer {
+  color: #fff;
+}
+
+.footer_logo {
+  max-width: 270px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.ftr_logo_blk p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer_link li {
+  margin-right: 5%;
+  display: inline-block;
+}
+
+.footer_link a {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+}
+
+.footer_link a:hover {
+  color: #00e7ff;
+}
+
+.ftr_link_sec .footer_link li {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.ftr_link_sec .footer_link a {
+  font-size: 20px;
+}
+
+.footer_inner_item {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer_inner_item ul {
+  line-height: 45px;
+}
+
+.ftr_logo_blk .footer_inner_item {
+  max-width: 380px;
+}
+
+.ftr_link_sec {
+  text-align: right;
+}
+
+.ftr_item {
+  margin-bottom: 55px;
+}
+
+.footer_copyright {
+  font-size: 14px;
+  text-align: right;
+  line-height: 22px;
+  vertical-align: top;
+}
+
+.footer_copyright a {
+  color: #fff;
+  line-height: 22px;
+  vertical-align: top;
+}
+
+.footer_copyright a:hover {
+  color: #00e7ff;
+}
+
+.top_svg {
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.top_svg svg {
+  margin-top: -3px;
+}
+
+.bottom_design {
+  overflow: hidden;
+  position: relative;
+}
+
+.bottom_design img {
+  margin-bottom: -15px;
+  width: 100%;
+}
